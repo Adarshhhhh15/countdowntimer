@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero{
+    height: 100vh;
+    background-image: url(/hourglass-7704152_1280.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+.h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.timebox{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding-top: 10px;
+}
